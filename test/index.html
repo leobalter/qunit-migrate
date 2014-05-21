@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>QUnit Migrate Test Suite</title>
+
+	<!-- Ensure IE doesn't fall back into oldIE modes -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+	<!-- QUnit -->
+	<link rel="stylesheet" href="../libs/qunit/qunit.css" media="screen">
+	<script src="../libs/qunit/qunit.js"></script>
+
+	<!-- Source test files -->
+	<script src="../src/migrate.js"></script>
+	<script src="../src/ex-globals.js"></script>
+	<script src="../src/deprecated-globals.js"></script>
+	<script src="../src/assertions.js"></script>
+	<script src="../src/old.js"></script>
+
+	<!-- Unit test files -->
+	<script src="migrate.js"></script>
+	<script src="ex-globals.js"></script>
+	<script src="deprecated-globals.js"></script>
+	<script src="assertions.js"></script>
+	<script src="old.js"></script>
+</head>
+<body>
+	<div id="qunit"></div>
+</body>
+</html>

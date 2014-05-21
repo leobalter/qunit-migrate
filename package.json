@@ -1,0 +1,33 @@
+{
+  "name": "qunit-migrate",
+  "title": "QUnit Migrate",
+  "description": "Migrate older QUnit code to QUnit 1.9+",
+  "version": "0.0.1",
+  "homepage": "https://github.com/leobalter/qunit-migrate",
+  "author": {
+    "name": "Leo Balter",
+    "url": "https://github.com/leobalter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leobalter/qunit-migrate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leobalter/qunit-migrate/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/leobalter/qunit-migrate/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-qunit": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "qunitjs": "^1.14.0"
+  },
+  "keywords": []
+}
