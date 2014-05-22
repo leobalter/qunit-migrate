@@ -1,4 +1,5 @@
 # qunit-migrate: Migrate older QUnit code to QUnit 2+
+[![Build Status](https://travis-ci.org/leobalter/qunit-migrate.svg?branch=master)](https://travis-ci.org/leobalter/qunit-migrate)
 
 Run `grunt` to `jshint`, `qunit` and `uglify` release.
 
