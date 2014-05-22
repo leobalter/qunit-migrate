@@ -21,6 +21,9 @@
       "url": "https://github.com/leobalter/qunit-migrate/blob/master/LICENSE-MIT"
     }
   ],
+  "scripts": {
+    "test": "grunt -v jshint qunit"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-concat": "^0.4.0",
